@@ -1,0 +1,5 @@
+{
+  "pythonVersion": "3.10",
+  "reportMissingImports": "warning",
+  "ignore": ["**/tvm_compile.py"]
+}

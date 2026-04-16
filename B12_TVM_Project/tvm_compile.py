@@ -13,8 +13,8 @@ except ImportError as exc:
     raise
 
 try:
-    import tvm
-    from tvm import relay
+    import tvm # type: ignore[import]
+    from tvm import relay # type: ignore[import]
 except ImportError as exc:
     print("Apache TVM is not available in this Python environment.")
     print(f"Python executable: {sys.executable}")

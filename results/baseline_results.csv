@@ -1,4 +1,4 @@
 model,batch,backend_baseline,latency_ms_baseline,throughput_img_s_baseline,target
-resnet18,1,onnxruntime_cpu,24.8487329999989,40.243500543872564,cpu
-resnet18,4,onnxruntime_cpu,90.3633839999975,44.265717184740566,cpu
-resnet18,8,onnxruntime_cpu,189.3624940000018,42.247014342765915,cpu
+resnet18,1,onnxruntime_cpu,26.34100600000238,37.963622194228634,cpu
+resnet18,4,onnxruntime_cpu,112.25992199993925,35.631594328046695,cpu
+resnet18,8,onnxruntime_cpu,213.42525100015337,37.483849556275096,cpu

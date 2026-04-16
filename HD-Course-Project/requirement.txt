@@ -1,7 +1,0 @@
-# install packages
-torch 
-torchvision
-onnx
-onnxruntime
-pandas
-matplotlib
