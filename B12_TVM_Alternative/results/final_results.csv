@@ -1,0 +1,4 @@
+model,batch,backend_baseline,backend_optimized,backend_quantized,latency_ms_baseline,latency_ms_optimized,latency_ms_quantized,throughput_img_s_baseline,throughput_img_s_optimized,throughput_img_s_quantized,speedup_optimized_vs_baseline,speedup_quantized_vs_baseline,target
+resnet18,1,onnxruntime_cpu,onnxruntime_optimized,onnxruntime_int8,51.9662260899986,64.31274044999554,,19.243267699835137,15.54901863927755,,0.8080238180862995,,cpu
+resnet18,4,onnxruntime_cpu,onnxruntime_optimized,onnxruntime_int8,224.5835982400058,231.00103452999974,,17.810739659293013,17.315939766843453,,0.9722190149362274,,cpu
+resnet18,8,onnxruntime_cpu,onnxruntime_optimized,onnxruntime_int8,440.8716859100059,433.9773215800051,,18.14586932133587,18.434142989025233,,1.0158864622347088,,cpu
