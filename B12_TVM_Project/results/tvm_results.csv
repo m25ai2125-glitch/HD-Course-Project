@@ -1,0 +1,4 @@
+model,backend,batch,latency_ms,throughput_img_s
+resnet18,tvm_cpu,1,289.30724035,3.456532919087035
+resnet18,tvm_cpu,4,1757.6707674,2.275739048625655
+resnet18,tvm_cpu,8,3457.54469017,2.3137806498190647

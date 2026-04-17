@@ -1,0 +1,35 @@
+[
+  {
+    "model":"resnet18",
+    "backend_baseline":"onnxruntime_cpu",
+    "batch":1,
+    "latency_ms_baseline":69.4594065,
+    "throughput_img_s_baseline":14.3968981365,
+    "backend_tvm":"tvm_cpu",
+    "latency_ms_tvm":289.30724035,
+    "throughput_img_s_tvm":3.4565329191,
+    "speedup":0.2400887251
+  },
+  {
+    "model":"resnet18",
+    "backend_baseline":"onnxruntime_cpu",
+    "batch":4,
+    "latency_ms_baseline":260.00389637,
+    "throughput_img_s_baseline":15.3843848336,
+    "backend_tvm":"tvm_cpu",
+    "latency_ms_tvm":1757.6707674,
+    "throughput_img_s_tvm":2.2757390486,
+    "speedup":0.1479252549
+  },
+  {
+    "model":"resnet18",
+    "backend_baseline":"onnxruntime_cpu",
+    "batch":8,
+    "latency_ms_baseline":563.5354726,
+    "throughput_img_s_baseline":14.1960894903,
+    "backend_tvm":"tvm_cpu",
+    "latency_ms_tvm":3457.54469017,
+    "throughput_img_s_tvm":2.3137806498,
+    "speedup":0.162987184
+  }
+]

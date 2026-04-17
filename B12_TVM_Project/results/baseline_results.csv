@@ -1,0 +1,4 @@
+model,backend,batch,latency_ms,throughput_img_s
+resnet18,onnxruntime_cpu,1,69.45940650000011,14.396898136467641
+resnet18,onnxruntime_cpu,4,260.003896369999,15.384384833632621
+resnet18,onnxruntime_cpu,8,563.5354725999991,14.196089490321132

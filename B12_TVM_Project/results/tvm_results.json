@@ -1,0 +1,23 @@
+[
+  {
+    "model":"resnet18",
+    "backend":"tvm_cpu",
+    "batch":1,
+    "latency_ms":289.30724035,
+    "throughput_img_s":3.4565329191
+  },
+  {
+    "model":"resnet18",
+    "backend":"tvm_cpu",
+    "batch":4,
+    "latency_ms":1757.6707674,
+    "throughput_img_s":2.2757390486
+  },
+  {
+    "model":"resnet18",
+    "backend":"tvm_cpu",
+    "batch":8,
+    "latency_ms":3457.54469017,
+    "throughput_img_s":2.3137806498
+  }
+]
